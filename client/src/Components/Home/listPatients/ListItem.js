@@ -3,8 +3,7 @@ import AccordionHeader from "react-bootstrap/esm/AccordionHeader";
 import AccordionBody from "react-bootstrap/esm/AccordionBody";
 import AccordionItem from "react-bootstrap/esm/AccordionItem";
 import { MdPets } from "react-icons/md";
-import {} from "react-icons/fa";
-import { Button, ButtonGroup } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 function ListItem({ patient }) {
   return (

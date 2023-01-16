@@ -13,7 +13,7 @@ function List({ patients }) {
   return (
     <div
       style={{ backgroundColor: "white" }}
-      className="container-fluid w-100 h-auto border border-gray rounded"
+      className="container-fluid p-2 w-100 h-auto border border-gray rounded"
     >
       {typeof patients !== undefined ? (
         <Accordion className="border border-primary rounded my-2">

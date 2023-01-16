@@ -1,5 +1,5 @@
 const express = require("express");
 const router = express.Router();
-const connect = require("../connectDB");
+const connection = require("../connectDB");
 
 module.exports = router;

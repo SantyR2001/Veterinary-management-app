@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer(props) {
   return (
-    <div
+    <footer
       style={{ bottom: "0", height: "50px" }}
       className="d-flex align-items-center w-100 text-secondary bg-dark"
     >
@@ -11,7 +11,7 @@ function Footer(props) {
           <strong>All rights reserved @SantyRaab Inc 2001-2022</strong>
         </p>
       </div>
-    </div>
+    </footer>
   );
 }
 
