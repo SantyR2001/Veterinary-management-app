@@ -15,7 +15,12 @@ function FormPatient(props) {
       }}
       onSubmit={(values, actions) => {}}
     >
-      <Form className="form-control text-primary fw-bold fs-6">
+      <Form 
+      style={{ 
+        height: 'calc(100% - 90px)'
+      }} 
+      className="form-control d-flex flex-column justify-content-around p-4 text-primary fw-bold fs-6"
+      >
         <div>
           <label className="form-label m-1 float-start">PET NAME</label>
           <br />
@@ -25,7 +30,7 @@ function FormPatient(props) {
             id="petName"
             type="text"
             className="w-100 rounded"
-            style={{ height: "38px" }}
+            style={{ height: "40px" }}
           />
         </div>
         <div>
@@ -37,7 +42,7 @@ function FormPatient(props) {
             id="ownerName"
             type="text"
             className="w-100 rounded"
-            style={{ height: "38px" }}
+            style={{ height: "40px" }}
           />
         </div>
         <div>
@@ -49,14 +54,14 @@ function FormPatient(props) {
             id="email"
             type="email"
             className="w-100 rounded"
-            style={{ height: "38px" }}
+            style={{ height: "40px" }}
           />
         </div>
         <div>
           <label className="form-label m-1 float-start">DISCHARGE DATE</label>
           <br />
           <Field
-            style={{ height: "38px" }}
+            style={{ height: "40px" }}
             type="date"
             name="date"
             id="date"
@@ -68,7 +73,7 @@ function FormPatient(props) {
           <br />
           <Field
             as="textarea"
-            style={{ height: "38px" }}
+            style={{ height: "40px" }}
             placeholder="Pet symptoms"
             name="symptoms"
             id="symptoms"
@@ -77,7 +82,7 @@ function FormPatient(props) {
         </div>
         <Button
           type="submit"
-          className="w-100 mt-3 fw-bold rounded-5"
+          className="w-100 mt-2 fw-bold rounded-5"
           variant="primary"
         >
           ADD PATIENT

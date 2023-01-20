@@ -12,10 +12,10 @@ function List({ patients }) {
   };
   return (
     <div
-      style={{ backgroundColor: "white" }}
-      className="container-fluid w-100 h-auto border border-gray rounded"
+      style={{ backgroundColor: "white", height: 'calc(100% - 90px)' }}
+      className="container-fluid w-100 border border-gray rounded mb-5"
     >
-      {typeof patients !== undefined ? (
+      {patient !== undefined? (
         <Accordion className="border border-primary rounded my-2">
           <ListItem patient={patient} />
         </Accordion>

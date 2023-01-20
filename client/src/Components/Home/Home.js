@@ -5,7 +5,7 @@ import Container from "./container";
 
 function Home(props) {
   return (
-    <div className="h-auto">
+    <div className="h-100">
       <Nav />
       <Container />
       <Footer />
